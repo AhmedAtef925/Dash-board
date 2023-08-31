@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Web site</title>
+  </head>
+  <body>
+    
+    <section class="container">
+      <!--start the side bar-->
+      <aside>
+        <div class="top">
+             <div class="logo">
+                    <img src="images/logo.png" />
+                    <h2>ELBan<span>hawy</span></h2>
+            </div>
+            <div class="close" id="close-btn">
+                <i class="fas fa-times fa-lg"></i>
+            </div>
+        </div>
+        <div class="sideBar">
+          <a href="#" class="active">
+            <span> <i class="fa-solid fa-person"></i> </span>
+            <h3>DashBord</h3>
+          </a>
+
+          <a href="#" >
+            <span> <i class="fa-solid fa-person"></i> </span>
+            <h3>customer</h3>
+          </a>
+          <a href="#">
+            <span> <i class="fa-brands fa-first-order"></i> </span>
+            <h3>order</h3>
+          </a>
+          <a href="#">
+            <span> <i class="fa-solid fa-chart-simple"></i> </span>
+            <h3>Analyics</h3>
+          </a>
+          <a href="#">
+            <span> <i class="fa-solid fa-message"></i> </span>
+            <h3>Message</h3>
+            <span class="mes-count">26</span>
+          </a>
+          <a href="#">
+            <span> <i class="fa-solid fa-bug"></i> </span>
+            <h3>Report</h3>
+          </a>
+          <a href="#">
+            <span> <i class="fa-brands fa-product-hunt"></i> </span>
+            <h3>product</h3>
+          </a>
+          <a href="#">
+            <span><i class="fa-solid fa-gear"></i> </span>
+            <h3>Setting</h3>
+          </a>
+          <a href="#">
+            <span> <i class="fa-solid fa-cart-plus"></i> </span>
+            <h3>Add product</h3>
+          </a>
+          <a href="#">
+            <span> <i class="fa-solid fa-right-from-bracket"></i> </span>
+            <h3>LogOut</h3>
+          </a>
+        </div>
+      </aside>
+<!---------------------------------------------end the side bar------------------------------------------------->
+<main>
+  <h1>DashBord</h1>
+  <div class="date">
+    <input type="date">
+  </div>
+  <div class="inlights">
+    <div class="sales">
+      <span> <i class="fa-solid fa-chart-simple"></i> </span>
+      <div class="middle">
+        <div class="left">
+          <h3>Total Sales</h3>
+          <h1>$25.025</h1>
+        </div>
+        <div class="progress">
+          <svg>
+            <circle cx="38" cy="38" r="36"></circle>
+          </svg>
+          <div class="number">
+            <p>81%</p>
+          </div>
+        </div>
+        
+      </div>
+      <small class="text-muted">last Update 24 hours </small>
+    </div>
+    <!--end of sales -->
+    <div class="Expenses">
+      <span> <i class="fa-solid fa-chart-simple"></i> </span>
+      <div class="middle">
+        <div class="left">
+          <h3>Total Expenses</h3>
+          <h1>$14.025</h1>
+        </div>
+        <div class="progress">
+          <svg>
+            <circle cx="38" cy="38" r="36"></circle>
+          </svg>
+          <div class="number">
+            <p>62%</p>
+          </div>
+        </div>
+
+      </div>
+      <small class="text-muted">last Update 24 hours </small>
+    </div>
+    <!--end of Expensess -->
+    <div class="Income">
+      <span> <i class="fa-solid fa-chart-simple"></i> </span>
+      <div class="middle">
+        <div class="left">
+          <h3>Total Income</h3>
+          <h1>$10.025</h1>
+        </div>
+        <div class="progress">
+          <svg>
+            <circle cx="38" cy="38" r="36"></circle>
+          </svg>
+          <div class="number">
+            <p>44%</p>
+          </div>
+        </div>
+      
+      </div>
+      <small class="text-muted">last Update 24 hours </small>
+    </div>
+    <!--end of Income -->
+  </div>
+  <!---------------------------------------------start the recend-order------------------------------------>
+<div class="recent-order">
+  <h2>Recent Order</h2>
+  <table>
+    <thead>
+      <tr>
+        <th> name</th>
+        <th> number</th>
+        <th> payment</th>
+        <th> Status</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+<!--      <tr>
+        <td>feldable</td>
+        <td>85631</td>
+        <td>Due</td>
+        <td class="waring">Pending</td>
+        <td class="primary">Details</td>
+      </tr>
+      <tr>
+        <td>feldable</td>
+        <td>85631</td>
+        <td>Due</td>
+        <td class="waring">Pending</td>
+        <td class="primary">Details</td>
+      </tr>
+      <tr>
+        <td>feldable</td>
+        <td>85631</td>
+        <td>Due</td>
+        <td class="waring">Pending</td>
+        <td class="primary">Details</td>
+      </tr>
+      <tr>
+        <td>feldable</td>
+        <td>85631</td>
+        <td>Due</td>
+        <td class="waring">Pending</td>
+        <td class="primary">Details</td>
+      </tr>
+      <tr>
+        <td>feldable</td>
+        <td>85631</td>
+        <td>Due</td>
+        <td class="waring">Pending</td>
+        <td class="primary">Details</td>
+      </tr>-->
+    </tbody>
+  </table>
+  <a href="#">Show All</a>
+</div>
+</main>
+<!---------------------------------------------start the right section------------------------------------------------->
+<div class="right">
+    <div class="top">
+        <button id="menu-btn">
+          <span> <i class="fa-solid fa-bars"></i> </span>
+        </button>
+        <div class="theme-toggle" id="theme-toggle">
+            <span class="active"> <i class="fa-solid fa-sun"></i></span>
+            <span> <i class="fa-solid fa-moon"></i> </span>
+        </div>
+        <div class="profile">
+            <div class="info">
+              <p>Hey <b>Ahmed</b></p>
+              <small class="text-muted">Admin</small>
+            </div>
+            <div class="profile-img">
+              <img src="images/profile-1.jpg">
+            </div>
+        </div>
+    </div>
+<!--end the top-->
+<div class="recent-updates">
+      <h2>Recent Updates</h2>
+    <div class="updates">
+                <div class="update">
+                  <div class="profile-img">
+                    <img src="images/profile-2.jpg">
+                  </div>
+                  <div class="message">
+                    <p> <b>Ahmed </b>Atef Shaker Mostafa </p>
+                    <small class="text-muted">2 minute ago </small>
+                  </div>
+              </div>
+    <div class="update">
+      <div class="profile-img">
+        <img src="images/profile-3.jpg">
+      </div>
+      <div class="message">
+        <p> <b>Ahmed </b>Atef Shaker Mostafa </p>
+        <small class="text-muted">2 minute ago </small>
+      </div>
+  </div>
+              <div class="update">
+                <div class="profile-img">
+                  <img src="images/profile-4.jpg">
+                </div>
+                <div class="message">
+                  <p> <b>Ahmed </b>Atef Shaker Mostafa </p>
+                  <small class="text-muted">2 minute ago </small>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="sale-analytics">
+  <h2>Sale Analytics </h2>
+        <div class="item">
+          <div class="icon">
+            <span> <i class="fa-solid fa-cart-plus"></i> </span>
+          </div>
+          <div class="right-inside">
+                <div class="info">
+                  <h3>Online Order</h3>
+                  <small class="text-muted">2 minute ago </small>
+                </div>
+                <h5 class="primary"> +39%</h5>
+                <h3> 3849</h3>
+          </div>
+        </div> 
+<div class="item Offline">
+  <div class="icon">
+    <span> <i class="fa-solid fa-cart-plus"></i> </span>
+  </div>
+  <div class="right-inside">
+        <div class="info">
+          <h3>Offline Order</h3>
+          <small class="text-muted">35 minute ago </small>
+        </div>
+        <h5 class="danger"> -17%</h5>
+        <h3> 3849</h3>
+  </div>
+</div>
+          <div class="item customes">
+            <div class="icon">
+              <span> <i class="fa-solid fa-cart-plus"></i> </span>
+            </div>
+            <div class="right-inside">
+                  <div class="info">
+                    <h3>customes</h3>
+                    <small class="text-muted">2 hours ago </small>
+                  </div>
+                  <h5 class="sucess"> +25%</h5>
+                  <h3> 3849</h3>
+            </div>
+          </div>
+          <div class="item add-products">
+            <div>
+              <span> <i class="fa-solid fa-plus"></i> </span>
+              <h3> Add Products</h3>
+            </div>
+          </div>
+</div>
+</div>
+<!---------------------------------------------end the right section------------------------------------------------->
+    </section>
+    <script src="js/table.js"></script>
+    <script src="js/style.js"></script>
+  </body>
+</html>
